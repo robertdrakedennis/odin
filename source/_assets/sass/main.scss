@@ -1,0 +1,32 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+body {
+  background: linear-gradient(230deg, #ba2525, #D64545, #610404, #a61b1b);
+  background-size: 400% 400%;
+
+  -webkit-animation: hero-bg-gradient 6s ease infinite;
+  -moz-animation: hero-bg-gradient 6s ease infinite;
+  animation: hero-bg-gradient 6s ease infinite;
+
+  @-webkit-keyframes hero-bg-gradient {
+    0%{background-position:0 67%}
+    50%{background-position:100% 34%}
+    100%{background-position:0 67%}
+  }
+  @-moz-keyframes hero-bg-gradient {
+    0%{background-position:0 67%}
+    50%{background-position:100% 34%}
+    100%{background-position:0 67%}
+  }
+  @keyframes hero-bg-gradient {
+    0%{background-position:0 67%}
+    50%{background-position:100% 34%}
+    100%{background-position:0 67%}
+  }
+}
+

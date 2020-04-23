@@ -1,2 +1,2 @@
-# odin
-static site built for unreleased product.
+# odin.quub.io
+Odin's main product page built on jigsaw

@@ -1,0 +1,13 @@
+{
+    "name": "quub/aorus",
+    "license": "proprietary",
+    "description": "Aorus is the static frontend that serves all information to the general public.",
+    "authors": [
+        {
+            "name": "Atlas"
+        }
+    ],
+    "require": {
+        "tightenco/jigsaw": "^1.3"
+    }
+}
